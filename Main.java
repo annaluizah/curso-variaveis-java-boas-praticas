@@ -46,7 +46,40 @@ public class Main {
         System.out.println(NUMERO_TENTATIVAS);
         System.out.println(QUANTIDADE_OPCOES);
 
+        //Exemplos tipos de variáveis
 
+        byte b1 = 10;
+        byte b2 = 20;
+
+        short s1 = 20000;
+        // ultrapassa o limite de um short -> short s2 = 40000;
+
+        // limite muito inferior -> int i1 = -10000000000;
+        int i2 = 28500;
+
+        long l1 = 1000000000000000000L;
+        long l2 = 2004005000500055000L;
+
+        //não cabe dentro de um float, é um double  -> float f1 = 4.5;
+        float f2 = 10.68f;
+
+        double d1 = 85.69;
+        double d2 = 99.84d;
+
+        char c1 = 'W';
+        // não pode receber mais de um char -> char c2 = 'Tw';
+        char c3 = '\u0057';
+
+        String st1 = "Fulano";
+        String st2 = "Cicrano";
+        String st3 = "asdhs audh883r 38320-#$#$";
+
+        // data sendo guardada como texto -> String dt1 = "25/05/2022";
+        // existe um tipo somente para o dado de data.
+
+        boolean bo1 = true;
+        boolean bo2 = false;
+
+        System.out.println("Imprimindo as variáveis: " + b1 + b2 + s1 + i2 + l1 + l2 + f2 + d1 + d2 + c1 + c3 + st1 + st2 + st3 + bo1 + bo2);
     }
-
 }
